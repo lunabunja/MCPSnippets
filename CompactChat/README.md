@@ -33,6 +33,7 @@ In GuiNewChat.java change printChatMessage(ITextComponent chatComponent) to:
         this.printChatMessageWithOptionalDeletion(chatComponent, line);
     }
 ```
+You might need to change a few things as I made this in 1.12.2
 
 # Credit
 You don't have to but I'd like some credit. **Original CompactChat is made by Sk1er**
