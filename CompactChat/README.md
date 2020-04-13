@@ -8,6 +8,10 @@
 # How To Use
 In GuiNewChat.java change printChatMessage(ITextComponent chatComponent) to:
 ```java
+
+    private String lastMessage = "";
+    private int sameMessageAmount, line;
+
     public void printChatMessage(ITextComponent chatComponent)
     {
     	if (chatComponent.getUnformattedText().equals(lastMessage)) {
